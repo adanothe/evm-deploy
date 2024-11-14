@@ -9,8 +9,8 @@ This guide will walk you through the steps to deploy and verify a smart contract
 Clone the repository to your local machine:
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/adanothe/evm-deploy.git
+cd evm-deploy
 ```
 
 ### 2. Install Dependencies
