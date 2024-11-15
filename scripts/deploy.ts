@@ -36,7 +36,7 @@ async function main() {
   await contract.waitForDeployment();
   const contractAddress = await contract.getAddress();
 
-  console.log(`Contract deployed to ${contractAddress}`);
+  console.log(`Contract deployed to https://rome.testnet.romeprotocol.xyz:1000/address/${contractAddress}`);
 }
 
 main().catch((error) => {
